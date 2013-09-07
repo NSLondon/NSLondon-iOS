@@ -1,0 +1,20 @@
+PODS:
+  - AFNetworking (2.0.0-RC2):
+    - AFNetworking/Core
+    - AFNetworking/UIKit+AFNetworking
+  - AFNetworking/Core (2.0.0-RC2)
+  - AFNetworking/UIKit+AFNetworking (2.0.0-RC2)
+  - Expecta (0.2.2)
+  - Specta (0.1.11)
+
+DEPENDENCIES:
+  - AFNetworking
+  - Expecta
+  - Specta
+
+SPEC CHECKSUMS:
+  AFNetworking: 6b19d8a0793f342d8c879cd0af9d7488e54addcf
+  Expecta: 99adbb2e366a02796477523bfd426143350d9caf
+  Specta: 82746c6fd70b104c5d37cfbadb7bf15a2cbc4da0
+
+COCOAPODS: 0.23.0

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>4522B6D9-7891-44AC-87B8-492985225FDC</string>
+	<key>IDESourceControlProjectName</key>
+	<string>NSLondon-iOS</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>310F6DE6-B457-4CAC-9FE2-B0BD9FFA830E</key>
+		<string>ssh://github.com/confidenceJuice/NSLondon-iOS.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>NSLondon-iOS/NSLondon-iOS.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>310F6DE6-B457-4CAC-9FE2-B0BD9FFA830E</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/confidenceJuice/NSLondon-iOS.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>310F6DE6-B457-4CAC-9FE2-B0BD9FFA830E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>310F6DE6-B457-4CAC-9FE2-B0BD9FFA830E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>NSLondon-iOS</string>
+		</dict>
+	</array>
+</dict>
+</plist>

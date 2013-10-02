@@ -6,7 +6,7 @@
 //  Copyright (c) 2013 NSLondon. All rights reserved.
 //
 
-#import "MTLModel.h"
+#import <Mantle/Mantle.h>
 
 @class NSLUser;
 
@@ -16,14 +16,15 @@ typedef NS_ENUM(NSUInteger, NSLEventItemType) {
     NSLEventItemTalkType,
 };
 
-@interface NSLEventItem : MTLModel
+@interface NSLEventItem : MTLModel <MTLJSONSerializing>
 
 @property (nonatomic, assign, readonly) NSLEventItemType type;
 
 @property (nonatomic, strong, readonly) NSString *title;
 @property (nonatomic, strong, readonly) NSLUser *user;
-@property (nonatomic, strong, readonly) NSDate *start;
-@property (nonatomic, strong, readonly) NSDate *end;
+
+@property (nonatomic, strong, readonly) NSDate *startDate;
+@property (nonatomic, strong, readonly) NSDate *endDate;
 
 @property (nonatomic, strong, readonly) NSArray *links;
 

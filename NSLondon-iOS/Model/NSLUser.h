@@ -6,9 +6,9 @@
 //  Copyright (c) 2013 NSLondon. All rights reserved.
 //
 
-#import "MTLModel.h"
+#import <Mantle/Mantle.h>
 
-@interface NSLUser : MTLModel
+@interface NSLUser : MTLModel <MTLJSONSerializing>
 
 @property (nonatomic, strong) NSString *name;
 @property (nonatomic, assign, getter = isSpeaker) BOOL speaker;

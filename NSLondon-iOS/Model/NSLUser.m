@@ -10,4 +10,12 @@
 
 @implementation NSLUser
 
++ (NSDictionary *)JSONKeyPathsByPropertyKey {
+    return @{
+         @"name": @"name",
+         @"speaker": @"is_speaker",
+         @"organiser": @"is_organiser",
+     };
+}
+
 @end

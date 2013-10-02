@@ -6,9 +6,9 @@
 //  Copyright (c) 2013 NSLondon. All rights reserved.
 //
 
-#import "MTLModel.h"
+#import <Mantle/Mantle.h>
 
-@interface NSLLink : MTLModel
+@interface NSLLink : MTLModel <MTLJSONSerializing>
 
 @property (nonatomic, strong, readonly) NSString *name;
 @property (nonatomic, strong, readonly) NSURL *URL;

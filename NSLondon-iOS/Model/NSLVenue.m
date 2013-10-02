@@ -10,4 +10,20 @@
 
 @implementation NSLVenue
 
++ (NSDictionary *)JSONKeyPathsByPropertyKey {
+    return @{
+        @"name": @"name",
+        @"latitude": @"latitude",
+        @"longtitude": @"longtitude",
+
+        @"addressLine1": @"address_line_1",
+        @"addressLine2": @"address_line_2",
+        @"city": @"city",
+        @"county": @"county",
+        @"postCode": @"post_code",
+
+        @"notes": @"notes",
+    };
+}
+
 @end

@@ -10,4 +10,16 @@
 
 @implementation NSLLink
 
++ (NSDictionary *)JSONKeyPathsByPropertyKey {
+    return @{
+        @"URL": @"url",
+        @"name": @"name",
+        @"embed": @"is_embed",
+    };
+}
+
++ (NSValueTransformer *)URLJSONTransformer {
+    return [NSValueTransformer valueTransformerForName:MTLURLValueTransformerName];
+}
+
 @end

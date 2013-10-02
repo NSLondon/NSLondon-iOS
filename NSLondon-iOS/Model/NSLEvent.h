@@ -6,11 +6,11 @@
 //  Copyright (c) 2013 NSLondon. All rights reserved.
 //
 
-#import "MTLModel.h"
+#import <Mantle/Mantle.h>
 
 @class NSLVenue;
 
-@interface NSLEvent : MTLModel
+@interface NSLEvent : MTLModel <MTLJSONSerializing>
 
 @property (nonatomic, strong, readonly) NSString *title;
 @property (nonatomic, strong, readonly) NSString *description;

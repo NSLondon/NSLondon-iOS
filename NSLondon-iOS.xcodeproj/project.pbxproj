@@ -20,6 +20,10 @@
 		18EFB30B17DB971000E14FDF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18EFB30917DB971000E14FDF /* InfoPlist.strings */; };
 		18EFB30D17DB971000E14FDF /* NSLondon_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EFB30C17DB971000E14FDF /* NSLondon_iOSTests.m */; };
 		18EFB31717DB979B00E14FDF /* NSLMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18EFB31617DB979B00E14FDF /* NSLMain.storyboard */; };
+		77E11C4918187578007A0659 /* NSLEventTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E11C4818187578007A0659 /* NSLEventTests.m */; };
+		77E11C4C181877AB007A0659 /* NSLUserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E11C4B181877AB007A0659 /* NSLUserTests.m */; };
+		77E11C4E18187833007A0659 /* NSLVenueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E11C4D18187833007A0659 /* NSLVenueTests.m */; };
+		77E11C501818783F007A0659 /* NSLLinkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E11C4F1818783F007A0659 /* NSLLinkTests.m */; };
 		77E53760181870E300556E78 /* NSLEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E53757181870E300556E78 /* NSLEvent.m */; };
 		77E53761181870E300556E78 /* NSLEventItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E53759181870E300556E78 /* NSLEventItem.m */; };
 		77E53762181870E300556E78 /* NSLLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E5375B181870E300556E78 /* NSLLink.m */; };
@@ -59,6 +63,11 @@
 		18EFB31617DB979B00E14FDF /* NSLMain.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = NSLMain.storyboard; sourceTree = "<group>"; };
 		2E2D5F10F12443F5B2800727 /* Pods-NSLondon-iOSTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NSLondon-iOSTests.xcconfig"; path = "Pods/Pods-NSLondon-iOSTests.xcconfig"; sourceTree = SOURCE_ROOT; };
 		39BBA85245B6446CA6AEBBA4 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		77E11C4818187578007A0659 /* NSLEventTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSLEventTests.m; sourceTree = "<group>"; };
+		77E11C4A181875FE007A0659 /* NSLTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSLTests.h; sourceTree = "<group>"; };
+		77E11C4B181877AB007A0659 /* NSLUserTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSLUserTests.m; sourceTree = "<group>"; };
+		77E11C4D18187833007A0659 /* NSLVenueTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSLVenueTests.m; sourceTree = "<group>"; };
+		77E11C4F1818783F007A0659 /* NSLLinkTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSLLinkTests.m; sourceTree = "<group>"; };
 		77E53756181870E300556E78 /* NSLEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSLEvent.h; sourceTree = "<group>"; };
 		77E53757181870E300556E78 /* NSLEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSLEvent.m; sourceTree = "<group>"; };
 		77E53758181870E300556E78 /* NSLEventItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSLEventItem.h; sourceTree = "<group>"; };
@@ -160,6 +169,11 @@
 		18EFB30617DB971000E14FDF /* NSLondon-iOSTests */ = {
 			isa = PBXGroup;
 			children = (
+				77E11C4A181875FE007A0659 /* NSLTests.h */,
+				77E11C4D18187833007A0659 /* NSLVenueTests.m */,
+				77E11C4F1818783F007A0659 /* NSLLinkTests.m */,
+				77E11C4B181877AB007A0659 /* NSLUserTests.m */,
+				77E11C4818187578007A0659 /* NSLEventTests.m */,
 				18EFB30C17DB971000E14FDF /* NSLondon_iOSTests.m */,
 				18EFB30717DB971000E14FDF /* Supporting Files */,
 			);
@@ -370,7 +384,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77E11C4918187578007A0659 /* NSLEventTests.m in Sources */,
+				77E11C4E18187833007A0659 /* NSLVenueTests.m in Sources */,
 				18EFB30D17DB971000E14FDF /* NSLondon_iOSTests.m in Sources */,
+				77E11C4C181877AB007A0659 /* NSLUserTests.m in Sources */,
+				77E11C501818783F007A0659 /* NSLLinkTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
